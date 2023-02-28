@@ -1,0 +1,4 @@
+.env
+node_modules
+/data/logger/query.log
+/data/logger/error.log
