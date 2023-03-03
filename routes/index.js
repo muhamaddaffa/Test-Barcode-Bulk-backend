@@ -11,6 +11,7 @@ const rolesRouter = require("./roles")
 const importLicenseRouter = require("./importLicense")
 const dashboardRouter = require("./dashboard")
 const menuRouter = require("./menus")
+const exportRouter = require("./export")
 
 
 // ENDPOINT
@@ -24,5 +25,6 @@ router.use("/bottles", bottlesRouter);
 router.use("/menus", menuRouter);
 router.use("/import-license", importLicenseRouter);
 router.use("/dashboard", dashboardRouter);
+router.use("/excel", exportRouter);
 
 module.exports = router;
